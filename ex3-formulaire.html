@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <style>
+            label{display:inline-block;min-width:100px;}
+        </style>
+    </head>
+        <meta charset="utf-8">
+    <body>
+        <h1>validation des information en Html</h1>
+        <form method="post">
+            <label for="name"> Votre nom: </label>
+            <input type="text" name="" id="name" maxlength="20" required><br>
+            <label for="prenom">Votre prenom: </label>
+            <input type="prenom" name="prenom" id="prenom" required><br>
+            <label for="age"> Votre age: </label>
+            <input type="age" name="age" id="age" required><br>
+            VOtre sexe:
+            <input type="radio" id="male" name="sexe" value="masculin">
+            <label for="male"><b>Masculin</b></label>
+            <input type="radio" id="female" name="sexe" value="feminin">
+            <label for="male"> <b>feminin</b></label><br>
+            Votre diplome:  
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="bac">
+            <label for="vehicle1"><b>Bac</b></label>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Licence">
+            <label for="vehicle2"><b>Licence</b></label>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="master">
+            <label for="vehicle1"><b>Master</b></label><br>
+            Votre stage:
+            <select id="cars" name="cars">
+                <option value="devloppement">devloppement</option>
+                <option value="Gestion">Gestion</option>
+                <option value="Resseau">Resseau</option>
+                <option value="Bureautique">Bureautique</option>
+            </select><br>
+            <input type="submit" value="Envoyer">
+
+
